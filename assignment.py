@@ -5,7 +5,7 @@ try:
     radius = float(input('What is the radius?'))
     area = (radius ** 2) * math.pi
     circumference = (radius * 2) * math.pi
-    print('area:',area)
-    print("circumference:",circumference)
+    print('The area of your circle is:',area)
+    print("The circumference of your circle is:",circumference)
 except ValueError:
     print('Not a Number')

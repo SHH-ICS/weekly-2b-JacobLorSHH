@@ -1,6 +1,6 @@
 import math
 
-print('Your output most be a number!')
+print('Your output must be a number!')
 try:
     radius = float(input('What is the radius?'))
     area = (radius ** 2) * math.pi

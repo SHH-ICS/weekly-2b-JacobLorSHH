@@ -12,7 +12,11 @@
   <body>
   
     <form name="myForm" action="handler.php" method="POST">
-          
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" name="radius" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+          <label class="mdl-textfield__label" for="sample4">Radius...</label>
+          <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
     </form>
 
   </body>
